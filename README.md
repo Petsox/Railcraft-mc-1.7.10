@@ -1,7 +1,6 @@
 # Railcraft - A Minecraft Mod
 
-Here you will find the source and issue tracker for the **Official Railcraft Project**.
-
+##No public release yet, and there wont be one, until I get permissions from CovertJaguar
 
 ## What is Railcraft?
 
@@ -32,16 +31,6 @@ Post only confirmed bugs [here](https://github.com/CovertJaguar/Railcraft/issues
 You must have read and performed the proper support procedure outlined [here](http://railcraft.info/wiki/info:support) before posting.
 
 More information about issue Labels can be found [here](https://github.com/CovertJaguar/Railcraft/wiki/Issue-Labels).
-
-## Contributing
-
-The Official Railcraft Project welcomes contributions from anyone, provided they have signed the Contributor Licensing Agreement (CLA) found [here](https://cla-assistant.io/CovertJaguar/Railcraft).
-
-Signing the CLA is simple, just follow the link, and hit the "I Agree" button and you are good to go.
-
-Regarding new features/behavior changes, please submit a Suggestion Issue to the Tracker before you write a single line of code. Keeping everyone on the same page saves time and effort and reduces negative experiences all around when a change turns out to be controversial.
-
-Also, as a bonus. If submit a Pull Request that ends up being 'merged into dev' you are elligable to recieve beta access. To redeem, contact CovertJaguar on IRC.
 
 ## Building
 
