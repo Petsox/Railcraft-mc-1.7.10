@@ -1,6 +1,7 @@
 # Railcraft Ctyrk4 Edition - A Minecraft Mod, Ctyrk4 Community server
 
 ## Waiting for CovertJaguar Permissions, this repo could go done any day. I dont take any credit for this mod whatsoever.
+Original creator: [CovertJaguar](https://github.com/Railcraft) All credit goes to him!
 
 ## New in Ctyrk4 Edition
 
