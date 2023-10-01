@@ -1,6 +1,10 @@
-# Railcraft - A Minecraft Mod
+# Railcraft Ctyrk4 Edition - A Minecraft Mod, Ctyrk4 Community server
 
-##No public release yet, and there wont be one, until I get permissions from CovertJaguar
+## No public release yet, and there wont be one, until I get permissions from CovertJaguar
+
+## New in Ctyrk4 Edition
+
+Added two new aspects used on CZ/SK railroads, these beeing Blue and White
 
 ## What is Railcraft?
 
