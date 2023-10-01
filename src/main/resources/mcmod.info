@@ -1,0 +1,21 @@
+{
+  "modListVersion": 2,
+  "modList": [{
+    "modid": "Railcraft",
+    "name": "Railcraft Ctyrk4 Edition",
+    "description": "Redefine your rails",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "http://railcraft.info/",
+    "updateUrl": "http://www.railcraft.info/releases/",
+    "authorList": [ "CovertJaguar", "Petsox" ],
+    "credits": "Created by CovertJaguar. Ctyrk4 Edition by Petsox",
+    "logoFile": "assets/railcraft/logo.png",
+    "screenshots": [],
+    "parent": "",
+    "requiredMods": [ "Forge" ],
+    "dependencies": [],
+    "dependants": [],
+    "useDependencyInformation": true
+  }]
+}
