@@ -11,6 +11,8 @@ package mods.railcraft.common.blocks.signals;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
+import java.util.Arrays;
+
 import mods.railcraft.api.signals.SignalAspect;
 import mods.railcraft.common.util.network.IGuiReturnHandler;
 import net.minecraft.entity.player.EntityPlayer;
@@ -53,11 +55,21 @@ public abstract class TileBoxActionManager extends TileBoxSecured implements IAs
         super.readFromNBT(data);
         if (data.hasKey("PowerOnAspect")) {
             byte[] array = data.getByteArray("PowerOnAspect");
+            if (array.length == 6){
+                array = Arrays.copyOf(array, 8);
+                data.setByteArray("powerOnAspects", array);
+                writeToNBT(data);
+            }
             for (int i = 0; i < powerOnAspects.length; i++) {
                 powerOnAspects[i] = array[i] == 1;
             }
         } else if (data.hasKey("powerOnAspects")) {
             byte[] array = data.getByteArray("powerOnAspects");
+            if (array.length == 6){
+                array = Arrays.copyOf(array, 8);
+                data.setByteArray("powerOnAspects", array);
+                writeToNBT(data);
+            }
             for (int i = 0; i < powerOnAspects.length; i++) {
                 powerOnAspects[i] = array[i] == 1;
             }

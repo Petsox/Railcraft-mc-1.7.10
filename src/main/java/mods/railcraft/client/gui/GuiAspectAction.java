@@ -67,7 +67,9 @@ public class GuiAspectAction extends GuiContainerRailcraft {
         buttonList.add(new GuiToggleButton(2, w + 63, h + 30, 50, LocalizationPlugin.translate(SignalAspect.YELLOW.getLocalizationTag()), aspects[SignalAspect.YELLOW.ordinal()]));
         buttonList.add(new GuiToggleButton(3, w + 94, h + 55, 70, LocalizationPlugin.translate(SignalAspect.BLINK_RED.getLocalizationTag()), aspects[SignalAspect.BLINK_RED.ordinal()]));
         buttonList.add(new GuiToggleButton(4, w + 119, h + 30, 50, LocalizationPlugin.translate(SignalAspect.RED.getLocalizationTag()), aspects[SignalAspect.RED.ordinal()]));
-        buttonList.add(lockButton = new GuiMultiButton(5, w + 152, h + 8, 16, actionManager.getLockController()));
+        buttonList.add(new GuiToggleButton(5, w + 35, h + 80, 50, LocalizationPlugin.translate(SignalAspect.BLUE.getLocalizationTag()), aspects[SignalAspect.BLUE.ordinal()]));
+        buttonList.add(new GuiToggleButton(6, w + 90, h + 80, 50, LocalizationPlugin.translate(SignalAspect.WHITE.getLocalizationTag()), aspects[SignalAspect.WHITE.ordinal()]));
+        buttonList.add(lockButton = new GuiMultiButton(7, w + 152, h + 8, 16, actionManager.getLockController()));
         lockButton.enabled = false;
     }
 
@@ -89,7 +91,7 @@ public class GuiAspectAction extends GuiContainerRailcraft {
     }
 
     protected void onButtonPressed(GuiButton button) {
-        if (button.id <= 4) {
+        if (button.id <= 7) {
             SignalAspect aspect = SignalAspect.VALUES[button.id];
             aspects[aspect.ordinal()] = !aspects[aspect.ordinal()];
             ((GuiToggleButton) button).active = aspects[aspect.ordinal()];

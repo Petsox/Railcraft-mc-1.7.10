@@ -40,18 +40,18 @@ public enum SignalAspect {
      */
     RED(2, "railcraft.gui.aspect.red.name"),
     /**
+     * Can't happen, really it can't (or shouldn't). Only used when rendering
+     * blink states (for the texture offset).
+     */
+    OFF(3, "railcraft.gui.aspect.off.name"),
+    /**
      * Shuting Allowed
      */
     WHITE(5, "railcraft.gui.aspect.white.name"),
     /**
      * Shuting Disallowed
      */
-    BLUE(4, "railcraft.gui.aspect.blue.name"),
-    /**
-     * Can't happen, really it can't (or shouldn't). Only used when rendering
-     * blink states (for the texture offset).
-     */
-    OFF(3, "railcraft.gui.aspect.off.name");
+    BLUE(4, "railcraft.gui.aspect.blue.name");
     private final int textureIndex;
     private final String localizationTag;
     private static boolean blinkState;

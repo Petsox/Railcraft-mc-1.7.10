@@ -72,9 +72,9 @@ public class GuiBoxController extends GuiBasic {
                 redstone++;
                 break;
         }
-        normal = Math.min(normal, SignalAspect.OFF.ordinal());
+        normal = Math.min(normal, SignalAspect.BLUE.ordinal());
         normal = Math.max(normal, 0);
-        redstone = Math.min(redstone, SignalAspect.OFF.ordinal());
+        redstone = Math.min(redstone, SignalAspect.BLUE.ordinal());
         redstone = Math.max(redstone, 0);
         defaultAspect = SignalAspect.values()[normal];
         poweredAspect = SignalAspect.values()[redstone];
