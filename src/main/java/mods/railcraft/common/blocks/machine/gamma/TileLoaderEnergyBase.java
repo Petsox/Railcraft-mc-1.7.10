@@ -13,7 +13,6 @@ import java.io.DataOutputStream;
 import java.io.IOException;
 
 import mods.railcraft.api.carts.IEnergyTransfer;
-import mods.railcraft.common.carts.CartUtils;
 import net.minecraft.entity.item.EntityMinecart;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;

@@ -18,7 +18,7 @@ public class RailcraftConstants {
     public static final String TEXTURE_FOLDER = "railcraft:textures/";
     public static final String ENTITY_TEXTURE_FOLDER = TEXTURE_FOLDER + "entities/";
     public static final String TESR_TEXTURE_FOLDER = TEXTURE_FOLDER + "tesr/";
-    public static final String CART_TEXTURE_FOLDER = ENTITY_TEXTURE_FOLDER + "carts/";
+    public static final String CART_TEXTURE_FOLDER = ENTITY_TEXTURE_FOLDER + "mods/railcraft/api/carts/";
     public static final String LOCOMOTIVE_TEXTURE_FOLDER = ENTITY_TEXTURE_FOLDER + "locomotives/";
     public static final String GUI_TEXTURE_FOLDER = TEXTURE_FOLDER + "gui/";
     public static final String ARMOR_TEXTURE_FOLDER = ENTITY_TEXTURE_FOLDER + "armor/";

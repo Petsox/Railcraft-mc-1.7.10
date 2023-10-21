@@ -221,7 +221,7 @@ public class TileAnchorWorld extends TileMachineItem implements IAnchor, ISidedI
         ItemStack drop = getMachineType().getItem();
         if (needsFuel() && hasFuel()) {
             NBTTagCompound nbt = new NBTTagCompound();
-            nbt.setLong("fuel", fuel);
+            nbt.setLong("mods/railcraft/api/fuel", fuel);
             drop.setTagCompound(nbt);
         }
         items.add(drop);
@@ -454,7 +454,7 @@ public class TileAnchorWorld extends TileMachineItem implements IAnchor, ISidedI
     public void writeToNBT(NBTTagCompound data) {
         super.writeToNBT(data);
 
-        data.setLong("fuel", fuel);
+        data.setLong("mods/railcraft/api/fuel", fuel);
 
         data.setBoolean("powered", powered);
 
@@ -472,7 +472,7 @@ public class TileAnchorWorld extends TileMachineItem implements IAnchor, ISidedI
         super.readFromNBT(data);
 
         if (needsFuel())
-            fuel = data.getLong("fuel");
+            fuel = data.getLong("mods/railcraft/api/fuel");
 
         powered = data.getBoolean("powered");
 

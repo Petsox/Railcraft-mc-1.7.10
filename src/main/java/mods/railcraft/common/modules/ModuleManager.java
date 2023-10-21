@@ -61,7 +61,7 @@ public class ModuleManager {
         TRAIN(ModuleTrain.class),
         LOCOMOTIVES(ModuleLocomotives.class),
         ROUTING(ModuleRouting.class),
-        EMBLEM(getClass("mods.railcraft.common.modules.ModuleEmblem")),
+        EMBLEM(ModuleEmblem.class),
         MAGIC(ModuleMagic.class),
         ELECTRICITY(ModuleElectricity.class),
         REDSTONE_FLUX(ModuleRF.class);

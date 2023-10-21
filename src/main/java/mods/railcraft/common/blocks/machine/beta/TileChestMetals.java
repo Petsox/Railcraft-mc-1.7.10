@@ -13,7 +13,6 @@ import java.util.Map;
 import mods.railcraft.api.core.items.IStackFilter;
 import mods.railcraft.common.blocks.machine.IEnumMachine;
 import mods.railcraft.common.items.Metal;
-import mods.railcraft.common.util.inventory.InvTools;
 import mods.railcraft.common.util.inventory.filters.ComplexStackFilter;
 import mods.railcraft.common.util.inventory.filters.ExclusionStackFilter;
 import mods.railcraft.common.util.inventory.manipulators.InventoryManipulator;

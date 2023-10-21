@@ -18,7 +18,6 @@ import mods.railcraft.common.fluids.Fluids;
 import mods.railcraft.common.items.firestone.FirestoneTickHandler;
 import mods.railcraft.common.items.firestone.*;
 import mods.railcraft.common.plugins.forge.CraftingPlugin;
-import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.oredict.OreDictionary;

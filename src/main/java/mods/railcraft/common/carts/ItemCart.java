@@ -14,7 +14,6 @@ import cpw.mods.fml.relauncher.SideOnly;
 
 import java.util.List;
 
-import mods.railcraft.common.gui.tooltips.ToolTipLine;
 import mods.railcraft.common.plugins.forge.LocalizationPlugin;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.entity.item.EntityMinecart;

@@ -911,7 +911,7 @@ public class EntityTunnelBore extends CartContainerBase implements IInventory, I
         data.setInteger("delay", getDelay());
         data.setBoolean("active", isActive());
         data.setInteger("burnTime", getBurnTime());
-        data.setInteger("fuel", fuel);
+        data.setInteger("mods/railcraft/api/fuel", fuel);
     }
 
     @Override
@@ -921,7 +921,7 @@ public class EntityTunnelBore extends CartContainerBase implements IInventory, I
         setDelay(data.getInteger("delay"));
         setActive(data.getBoolean("active"));
         setBurnTime(data.getInteger("burnTime"));
-        setFuel(data.getInteger("fuel"));
+        setFuel(data.getInteger("mods/railcraft/api/fuel"));
     }
 
     protected int getDelay() {

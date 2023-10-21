@@ -577,7 +577,7 @@ public abstract class EntityLocomotive extends CartContainerBase implements IDir
 
         data.setFloat("whistlePitch", whistlePitch);
 
-        data.setInteger("fuel", fuel);
+        data.setInteger("mods/railcraft/api/fuel", fuel);
 
         lockController.writeToNBT(data, "lock");
     }
@@ -602,7 +602,7 @@ public abstract class EntityLocomotive extends CartContainerBase implements IDir
 
         whistlePitch = data.getFloat("whistlePitch");
 
-        fuel = data.getInteger("fuel");
+        fuel = data.getInteger("mods/railcraft/api/fuel");
 
         lockController.readFromNBT(data, "lock");
     }

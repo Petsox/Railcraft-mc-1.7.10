@@ -30,7 +30,7 @@ public class ItemCartAnchor extends ItemCart {
         long fuel = 0;
         NBTTagCompound nbt = cart.getTagCompound();
         if (nbt != null)
-            fuel = nbt.getLong("fuel");
+            fuel = nbt.getLong("mods/railcraft/api/fuel");
         return fuel;
     }
 

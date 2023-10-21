@@ -60,7 +60,7 @@ public class RailcraftConfig {
     private static final String CAT_WORLD_GEN = "worldgen";
     private static final String CAT_FLUIDS = "fluids";
     private static final String CAT_RECIPES = "recipes";
-    private static final String CAT_CARTS = "carts";
+    private static final String CAT_CARTS = "mods/railcraft/api/carts";
     private static final String CAT_ITEMS = "items";
     private static final String CAT_BLOCKS = "blocks";
     private static final String CAT_SUBBLOCKS = "subblocks";

@@ -272,7 +272,7 @@ public class EntityCartAnchor extends CartContainerBase implements ICartContents
         ItemStack drop = super.getCartItem();
         if (needsFuel() && hasFuel()) {
             NBTTagCompound nbt = new NBTTagCompound();
-            nbt.setLong("fuel", anchorFuel);
+            nbt.setLong("mods/railcraft/api/fuel", anchorFuel);
             drop.setTagCompound(nbt);
         }
         return drop;

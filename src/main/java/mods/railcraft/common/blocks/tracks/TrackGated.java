@@ -27,9 +27,6 @@ import mods.railcraft.common.util.sounds.SoundHelper;
 import mods.railcraft.common.util.misc.Game;
 import net.minecraft.world.IBlockAccess;
 
-import static net.minecraftforge.common.util.ForgeDirection.DOWN;
-import static net.minecraftforge.common.util.ForgeDirection.UP;
-
 // Referenced classes of package net.minecraft.src:
 //            TileEntity, NBTTagCompound, World
 public class TrackGated extends TrackBaseRailcraft implements ITrackReversable, ITrackPowered, ITrackCustomShape, IPostConnection, ITrackBlocksMovement {

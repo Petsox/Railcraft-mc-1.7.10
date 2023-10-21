@@ -13,7 +13,6 @@ import java.io.IOException;
 import java.util.Set;
 
 import mods.railcraft.common.items.ItemGoggles;
-import mods.railcraft.common.plugins.forge.LocalizationPlugin;
 import net.minecraft.world.ChunkCoordIntPair;
 import net.minecraft.entity.Entity;
 import net.minecraft.world.World;

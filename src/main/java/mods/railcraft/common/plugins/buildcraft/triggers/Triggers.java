@@ -27,7 +27,7 @@ public enum Triggers implements ITriggerExternal {
     ENGINE_YELLOW("engine.yellow", new TriggerEngine(EnumSet.of(EnergyStage.YELLOW))),
     ENGINE_ORANGE("engine.orange", new TriggerEngine(EnumSet.of(EnergyStage.ORANGE))),
     ENGINE_RED("engine.red", new TriggerEngine(EnumSet.of(EnergyStage.RED, EnergyStage.OVERHEAT))),
-    LOW_FUEL("fuel", new TriggerLowFuel()),
+    LOW_FUEL("mods/railcraft/api/fuel", new TriggerLowFuel()),
     TEMP_COLD("temp.cold", new TriggerTemp(0, 100)),
     TEMP_WARM("temp.warm", new TriggerTemp(100, 300)),
     TEMP_HOT("temp.hot", new TriggerTemp(300, Integer.MAX_VALUE)),

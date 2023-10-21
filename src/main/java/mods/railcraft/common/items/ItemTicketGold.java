@@ -26,8 +26,6 @@ import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 
-import static mods.railcraft.common.items.ItemTicket.getOwner;
-
 /**
  * @author CovertJaguar <http://www.railcraft.info>
  */

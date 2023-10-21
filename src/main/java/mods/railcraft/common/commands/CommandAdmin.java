@@ -52,7 +52,7 @@ public class CommandAdmin extends SubCommand {
     private static class CommandAdminKillMinecarts extends SubCommand {
         private CommandAdminKillMinecarts() {
             super("minecarts");
-            addAlias("carts");
+            addAlias("mods/railcraft/api/carts");
             setPermLevel(PermLevel.ADMIN);
         }
 

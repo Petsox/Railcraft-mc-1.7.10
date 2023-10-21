@@ -12,12 +12,10 @@ import cpw.mods.fml.client.FMLClientHandler;
 
 import java.io.DataInputStream;
 import java.io.IOException;
-import java.util.Arrays;
 import java.util.Set;
 
 import mods.railcraft.api.core.WorldCoordinate;
 import mods.railcraft.client.render.RenderTESRSignals;
-import mods.railcraft.common.util.effects.IEffectManager;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.ChunkCoordIntPair;
 import net.minecraft.client.particle.EntityFX;

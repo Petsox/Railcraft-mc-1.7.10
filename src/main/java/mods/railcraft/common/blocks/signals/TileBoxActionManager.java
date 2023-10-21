@@ -57,8 +57,6 @@ public abstract class TileBoxActionManager extends TileBoxSecured implements IAs
             byte[] array = data.getByteArray("PowerOnAspect");
             if (array.length == 6){
                 array = Arrays.copyOf(array, 8);
-                data.setByteArray("powerOnAspects", array);
-                writeToNBT(data);
             }
             for (int i = 0; i < powerOnAspects.length; i++) {
                 powerOnAspects[i] = array[i] == 1;
@@ -67,8 +65,6 @@ public abstract class TileBoxActionManager extends TileBoxSecured implements IAs
             byte[] array = data.getByteArray("powerOnAspects");
             if (array.length == 6){
                 array = Arrays.copyOf(array, 8);
-                data.setByteArray("powerOnAspects", array);
-                writeToNBT(data);
             }
             for (int i = 0; i < powerOnAspects.length; i++) {
                 powerOnAspects[i] = array[i] == 1;
