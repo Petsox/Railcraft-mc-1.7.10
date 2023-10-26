@@ -9,6 +9,7 @@
 package mods.railcraft.client.render;
 
 import mods.railcraft.api.core.IPostConnection.ConnectStyle;
+import mods.railcraft.common.plugins.forge.ChatPlugin;
 import net.minecraft.block.Block;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.item.ItemStack;
@@ -112,7 +113,7 @@ public class RenderSignal extends RenderTESRSignals implements ICombinedRenderer
         World world = Game.getWorld();
         if (PostConnectionHelper.connect(iBlockAccess, x, y, z, ForgeDirection.DOWN) != ConnectStyle.NONE
                 || iBlockAccess.isSideSolid(x, y - 1, z, ForgeDirection.UP, true)
-                || (below != null && below.canPlaceTorchOnTop(world, x, y - 1, z))) {
+                || (below != null && below.getLocalizedName().equals("3D Print"))) {
             info.setBlockBounds(min, 0, min, max, 15 * pix, max);
             RenderFakeBlock.renderBlock(info, iBlockAccess, x, y, z, true, false);
         }
