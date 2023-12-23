@@ -8,10 +8,12 @@ evaluationDependsOn(':version')
 
 buildscript {
 	repositories {
-		mavenCentral()
+		maven {
+			url "https://repo1.maven.org/maven2"
+		}
 		maven {
 			name = "forge"
-			url = "http://files.minecraftforge.net/maven"
+			url = "https://maven.minecraftforge.net/"
 		}
 		maven {
 			name = "sonatype"
@@ -70,7 +72,7 @@ sourceSets {
 repositories {
 	maven {
 		name = "ic2"
-		url = "http://maven.ic2.player.to/"
+		url = "https://maven2.ic2.player.to/"
 	}
 	ivy {
 		name "BuildCraft"
@@ -85,7 +87,7 @@ configurations {
 
 dependencies {
 	api "mod.industrialcraft2:ic2"
-	api name: "buildcraft", version: "7.1.13", classifier: "dev"
+	api name: "buildcraft", version: "7.1.13", classifier: "dev", ext: "jar"
 }
 
 processResources {
