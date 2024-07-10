@@ -706,6 +706,7 @@ tile.railcraft.detector.advanced.name=Detector - Advanced
 tile.railcraft.detector.age.name=Detector - Age
 tile.railcraft.detector.animal.name=Detector - Animal
 tile.railcraft.detector.any.name=Detector - Any
+tile.railcraft.detector.any_gravel.name=Detector - Any - Gravel
 tile.railcraft.detector.cart.name=Detector - Cart
 tile.railcraft.detector.empty.name=Detector - Empty
 tile.railcraft.detector.energy.name=Detector - Energy

@@ -655,6 +655,7 @@ tile.railcraft.detector.advanced.name=Detektor - Pokročilý
 tile.railcraft.detector.age.name=Detektor - Věk
 tile.railcraft.detector.animal.name=Detektor - Zvíře
 tile.railcraft.detector.any.name=Detektor - Jakýkoliv
+tile.railcraft.detector.any_gravel.name=Detektor - Jakýkoliv - Štěrk
 tile.railcraft.detector.cart.name=Detektor - Vozík
 tile.railcraft.detector.empty.name=Detektor - Prázdný
 tile.railcraft.detector.energy.name=Detektor - Energie

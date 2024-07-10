@@ -23,6 +23,7 @@ public enum EnumDetector {
 
     ITEM(Module.AUTOMATION, DetectorItem.class),
     ANY(Module.AUTOMATION, Detector.class),
+    ANY_GRAVEL(Module.AUTOMATION, DetectorAnyGravel.class),
     EMPTY(Module.AUTOMATION, DetectorEmpty.class),
     MOB(Module.AUTOMATION, DetectorMob.class),
     POWERED(Module.AUTOMATION, DetectorPowered.class),

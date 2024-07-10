@@ -57,6 +57,12 @@ public class ModuleAutomation extends RailcraftModule {
                     "XXX",
                     'X', "stone",
                     'P', Blocks.stone_pressure_plate);
+            CraftingPlugin.addShapedRecipe(new ItemStack(blockDetector, 1, EnumDetector.ANY_GRAVEL.ordinal()),
+                    "XXX",
+                    "XPX",
+                    "XXX",
+                    'X', "gravel",
+                    'P', Blocks.stone_pressure_plate);
             CraftingPlugin.addShapedRecipe(new ItemStack(blockDetector, 1, EnumDetector.EMPTY.ordinal()),
                     "XXX",
                     "XPX",
