@@ -15,9 +15,9 @@ import mods.railcraft.common.blocks.detector.EnumDetector;
  *
  * @author CovertJaguar <http://www.railcraft.info/>
  */
-public class DetectorAnyGravel extends Detector {
+public class DetectorAnyDirtierB extends Detector {
     @Override
     public EnumDetector getType() {
-        return EnumDetector.ANY_GRAVEL;
+        return EnumDetector.ANY_DIRTIERB;
     }
 }

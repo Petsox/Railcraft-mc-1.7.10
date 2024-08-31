@@ -23,7 +23,6 @@ public enum EnumDetector {
 
     ITEM(Module.AUTOMATION, DetectorItem.class),
     ANY(Module.AUTOMATION, Detector.class),
-    ANY_GRAVEL(Module.AUTOMATION, DetectorAnyGravel.class),
     EMPTY(Module.AUTOMATION, DetectorEmpty.class),
     MOB(Module.AUTOMATION, DetectorMob.class),
     POWERED(Module.AUTOMATION, DetectorPowered.class),
@@ -38,7 +37,11 @@ public enum EnumDetector {
     SHEEP(Module.AUTOMATION, DetectorSheep.class),
     VILLAGER(Module.AUTOMATION, DetectorVillager.class),
     LOCOMOTIVE(Module.AUTOMATION, DetectorLocomotive.class),
-    ROUTING(Module.ROUTING, DetectorRouting.class);
+    ROUTING(Module.ROUTING, DetectorRouting.class),
+    ANY_GRAVEL(Module.AUTOMATION, DetectorAnyGravel.class),
+    ANY_DIRTYB(Module.AUTOMATION, DetectorAnyDirtyB.class),
+    ANY_DIRTIERB(Module.AUTOMATION, DetectorAnyDirtierB.class);
+
     public static final EnumDetector[] VALUES = values();
     public IIcon[] textures;
     private final Class<? extends Detector> handler;
